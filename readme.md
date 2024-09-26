@@ -1,4 +1,4 @@
-# NoiseBlock
+# NoiseBlock 🔇
 
 Android application for blocking unwanted noise by playing relaxing sounds. You can also select your own sound.
 
@@ -16,3 +16,7 @@ Minimum Android version is Android 13
 
 ## Screenshot
 ![Icon](/screenshots/main-activity.png)
+
+## Developed with ❤️ by
+- [otecfura](https://otecfura.cz)
+- [AquaSoup](https://www.aquasoup.com)
