@@ -4,7 +4,9 @@ Android application for blocking unwanted noise by playing relaxing sounds. You 
 
 ![Icon](/app/src/main/res/mipmap-xhdpi/ic_launcher.webp)
 
-[Latest release](https://github.com/otecfura/NoiseBlock/releases/latest/download/app-release.apk)
+# Latest release 
+
+[https://github.com/otecfura/NoiseBlock/releases/latest/download/app-release.apk](https://github.com/otecfura/NoiseBlock/releases/latest/download/app-release.apk)
 
 
 ![Download](/screenshots/qrcode.png)
