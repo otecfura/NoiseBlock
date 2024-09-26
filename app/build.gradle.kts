@@ -4,8 +4,8 @@ plugins {
 }
 
 val versionMajor = 0
-val versionMinor = 0
-val versionPatch = 9
+val versionMinor = 1
+val versionPatch = 0
 
 android {
     namespace = "cz.aquasoup.barking"
@@ -15,8 +15,8 @@ android {
         applicationId = "cz.aquasoup.barking"
         minSdk = 33
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = versionMajor * 1000 + versionMinor * 100 + versionPatch * 10
+        versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
