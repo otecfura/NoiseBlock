@@ -9,4 +9,8 @@
     <string name="sensitivity">Citlivost</string>
     <string name="type">Typ ruchu</string>
     <string name="about">Info</string>
+    <string name="about_long">Po spuštění služby se aktivuje nahrávání a pokud aplikace zaznamená zvolený hluk, spustí se relaxační hudba, nebo předem vybraný zvuk. Pokud se do  30 sekund zvolený zvuk neozve znova hudba se vypne. Každý zaznamenaný hluk prodlužuje dobu hudby o dalších 30 sekund.</string>
+    <string name="about_activity">Developed by AquaSoup</string>
+    <string name="donation">Donation</string>
+
 </resources>
