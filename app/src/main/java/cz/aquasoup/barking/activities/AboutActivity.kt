@@ -12,7 +12,7 @@ import cz.aquasoup.barking.R
 
 
 class AboutActivity : AppCompatActivity() {
-    lateinit var button: Button
+    private lateinit var button: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -6,11 +6,10 @@
     <string name="button_reset">Default audio</string>
     <string name="noises">Noises</string>
     <string name="listening">Listening!</string>
-    <string name="sensitivity">Sensitivity</string>
+    <string name="sensitivity">Detection threshold (smaller = more sensitive)</string>
     <string name="type">Type of noise</string>
     <string name="about">About</string>
-    <string name="about_long">Upon starting the service, recording is activated, and if the application detects the selected noise, relaxing music or a pre-selected sound will begin. If the selected sound does not occur again within 30 seconds, the music will turn off. Each detected noise extends the music duration by an additional 30 seconds.</string>
-    <string name="about_activity">Developed by AquaSoup</string>
+    <string name="about_long">Upon starting the service, listening is activated, and if the application detects the selected noise, relaxing music or a pre-selected sound will begin. If the selected sound does not occur again within 30 seconds, the music will turn off. Each detected noise extends the music duration by an additional 30 seconds.</string>
+    <string name="about_activity">Developed with ❤️ by AquaSoup</string>
     <string name="donation">Donation</string>
-
 </resources>

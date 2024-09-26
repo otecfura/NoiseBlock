@@ -93,7 +93,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun populateSeekBar() {
-        seekBar.progress = sharedPref.getInt("progress", 100)
+        seekBar.progress = sharedPref.getInt("progress", 20)
         seekBar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 with(sharedPref.edit()) {
@@ -228,7 +228,13 @@ class MainActivity : AppCompatActivity() {
 
         startButton.setOnClickListener {
             val serviceListen = Intent(this, BarkService::class.java)
-            serviceListen.putExtra(LISTENER_WHAT, spinner.selectedItem.toString())
+
+            val what = if (spinner.selectedItem == null){
+                "Bark"
+            }else{
+                spinner.selectedItem.toString()
+            }
+            serviceListen.putExtra(LISTENER_WHAT, what)
             serviceListen.putExtra(LISTENER_SENS, seekBar.progress)
             serviceListen.putExtra(LISTENER_URI, sharedPref.getString("uri", ""))
             ContextCompat.startForegroundService(this, serviceListen)
