@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("cz.aquasoup.barking", appContext.packageName)
+        assertEquals("com.aquasoup.barking", appContext.packageName)
     }
 }
