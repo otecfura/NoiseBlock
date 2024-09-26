@@ -4,7 +4,7 @@
     <string name="button_stop">Zastav službu</string>
     <string name="button_start">Spusť službu</string>
     <string name="button_reset">Defaultní audio</string>
-    <string name="noises">noises</string>
+    <string name="noises">Ruchy</string>
     <string name="listening">Poslouchám!</string>
     <string name="sensitivity">Citlivost</string>
     <string name="type">Typ ruchu</string>

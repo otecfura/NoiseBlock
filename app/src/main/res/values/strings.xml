@@ -4,7 +4,7 @@
     <string name="button_stop">Stop service</string>
     <string name="button_start">Start service</string>
     <string name="button_reset">Default audio</string>
-    <string name="noises">ruchy</string>
+    <string name="noises">Noises</string>
     <string name="listening">Listening!</string>
     <string name="sensitivity">Sensitivity</string>
     <string name="type">Type of noise</string>
