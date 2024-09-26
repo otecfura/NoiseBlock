@@ -1,6 +1,6 @@
 # NoiseBlock 🔇
 
-Android application for blocking unwanted noise by playing relaxing sounds. You can also select your own sound.
+Android application for blocking unwanted noise by playing relaxing sounds. You can also select your own sound. For your privacy, the application does not require Internet access.
 
 ![Icon](/app/src/main/res/mipmap-xhdpi/ic_launcher.webp)
 
