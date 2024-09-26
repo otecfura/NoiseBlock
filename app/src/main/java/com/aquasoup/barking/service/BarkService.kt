@@ -1,4 +1,4 @@
-package cz.aquasoup.barking.service
+package com.aquasoup.barking.service
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -13,8 +13,8 @@ import android.net.Uri
 import android.os.IBinder
 import androidx.core.app.NotificationCompat
 import androidx.core.app.ServiceCompat
-import cz.aquasoup.barking.activities.MainActivity
-import cz.aquasoup.barking.R
+import com.aquasoup.barking.activities.MainActivity
+import com.aquasoup.barking.R
 import org.tensorflow.lite.task.audio.classifier.AudioClassifier
 import java.util.Timer
 import kotlin.concurrent.fixedRateTimer

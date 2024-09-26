@@ -1,4 +1,4 @@
-package cz.aquasoup.barking.activities
+package com.aquasoup.barking.activities
 
 import android.content.Intent
 import android.net.Uri
@@ -8,7 +8,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import cz.aquasoup.barking.R
+import com.aquasoup.barking.R
 
 
 class AboutActivity : AppCompatActivity() {

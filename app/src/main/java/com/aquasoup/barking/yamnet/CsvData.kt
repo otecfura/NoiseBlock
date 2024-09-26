@@ -1,4 +1,4 @@
-package cz.aquasoup.barking.yamnet
+package com.aquasoup.barking.yamnet
 
 class CsvData{
     companion object {

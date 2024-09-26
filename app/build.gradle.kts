@@ -8,11 +8,11 @@ val versionMinor = 1
 val versionPatch = 0
 
 android {
-    namespace = "cz.aquasoup.barking"
+    namespace = "com.aquasoup.barking"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "cz.aquasoup.barking"
+        applicationId = "com.aquasoup.barking"
         minSdk = 33
         targetSdk = 34
         versionCode = versionMajor * 1000 + versionMinor * 100 + versionPatch * 10

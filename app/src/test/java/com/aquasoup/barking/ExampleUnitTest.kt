@@ -1,4 +1,4 @@
-package cz.aquasoup.barking
+package com.aquasoup.barking
 
 import org.junit.Test
 

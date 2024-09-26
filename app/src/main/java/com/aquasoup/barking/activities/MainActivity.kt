@@ -1,4 +1,4 @@
-package cz.aquasoup.barking.activities
+package com.aquasoup.barking.activities
 
 import android.Manifest.permission.FOREGROUND_SERVICE
 import android.Manifest.permission.FOREGROUND_SERVICE_MICROPHONE
@@ -27,12 +27,12 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import cz.aquasoup.barking.yamnet.CsvData
-import cz.aquasoup.barking.R
-import cz.aquasoup.barking.service.BarkService
-import cz.aquasoup.barking.service.LISTENER_SENS
-import cz.aquasoup.barking.service.LISTENER_URI
-import cz.aquasoup.barking.service.LISTENER_WHAT
+import com.aquasoup.barking.yamnet.CsvData
+import com.aquasoup.barking.R
+import com.aquasoup.barking.service.BarkService
+import com.aquasoup.barking.service.LISTENER_SENS
+import com.aquasoup.barking.service.LISTENER_URI
+import com.aquasoup.barking.service.LISTENER_WHAT
 
 
 class MainActivity : AppCompatActivity() {
