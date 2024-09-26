@@ -11,3 +11,8 @@ Android application for blocking unwanted noise by playing relaxing sounds. You 
 Upon starting the service, listening is activated, and if the application detects the selected noise, relaxing music or a pre-selected sound will begin play. If the selected noise does not occur again within 30 seconds, the music will turn off. Each detected selected noise extends the music duration by an additional 30 seconds.
 
 
+## Requirements
+Minimum Android version is Android 13
+
+## Screenshot
+![Icon](/screenshots/main-activity.png)
