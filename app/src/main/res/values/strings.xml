@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NoiseBlock</string>
+    <string name="button_audio">Choose audio</string>
+    <string name="button_stop">Stop service</string>
+    <string name="button_start">Start service</string>
+    <string name="button_reset">Default audio</string>
+    <string name="noises">ruchy</string>
+    <string name="listening">Listening!</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="type">Type of noise</string>
+    <string name="about">About</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NoiseBlock</string>
+    <string name="button_audio">Vyber audio</string>
+    <string name="button_stop">Zastav službu</string>
+    <string name="button_start">Spusť službu</string>
+    <string name="button_reset">Defaultní audio</string>
+    <string name="noises">noises</string>
+    <string name="listening">Poslouchám!</string>
+    <string name="sensitivity">Citlivost</string>
+    <string name="type">Typ ruchu</string>
+    <string name="about">Info</string>
+</resources>
