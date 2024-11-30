@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId = "com.aquasoup.barking"
-        minSdk = 33
+        minSdk = 30
         targetSdk = 34
         versionCode = versionMajor * 1000 + versionMinor * 100 + versionPatch * 10
         versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
